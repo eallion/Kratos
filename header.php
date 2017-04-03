@@ -57,5 +57,10 @@
 	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//getcdn.org/eallion/themes/Kratos/images/background.jpg);">
 		<div class="desc desc2 animate-box"><span><?php hellobingbing("geyan"); ?></span></div>
 	</div>
-</div>
+	</div>
+	<div class="canvas">
+        <div class="demo">
+             <canvas id="demo-canvas"></canvas>
+        </div>
+    </div>
 <div id="kratos-blog-post" style="background:#f5f5f5"><!--header-->
