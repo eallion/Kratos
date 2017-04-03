@@ -15,7 +15,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 								<a target="_blank" rel="external nofollow" href="//weibo.com/eallion"><i class="fa fa-weibo"></i></a>
 								<a target="_blank" rel="external nofollow" href="//twitter.com/eallion"><i class="fa fa-twitter"></i></a>
 							</p>
-							<p>&copy; <?php echo date("Y"); ?> <a href="https://eallion.com">eallion</a>. </p>
+							<p>&copy; <?php echo date("Y"); ?></p>
 						</div>
 					</div>
 				</div>
@@ -38,5 +38,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/EasePack.min.js"></script>
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/run.js"></script>
+<script type="text/javascript" src="https://getcdn.org/eallion/js/title.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://tajs.qq.com/stats?sId=58584686" charset="UTF-8"></script>
 </body>
 </html>
