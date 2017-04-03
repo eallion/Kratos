@@ -38,7 +38,7 @@ $comments->alt(' odd', ' even');
     ?>
 	<div id="<?php $comments->theId(); ?>" class="comment-body">
 		<div class="comment-author vcard">
-			<img alt="" src="<?php echo $avatar ?>" srcset="<?php echo $avatar ?> 2x" class="avatar avatar-50 photo" height="50" width="50"><cite class="fn"><?php echo $comments->author; ?></cite><span class="says">说道：</span>
+			<img alt="" src="<?php echo $avatar ?>" srcset="<?php echo $avatar ?> 2x" class="avatar avatar-50 photo" height="50" width="50"><cite class="fn"><a href="<?php echo $comments->url; ?>" target="_blank"><?php echo $comments->author; ?></a></cite><span class="says">说道：</span>
 		</div>		
 		<div class="comment-meta commentmetadata"><a><?php $comments->date('Y-m-d'); ?></a></div>
 		<p><?php $comments->content(); ?></p>
