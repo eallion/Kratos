@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html class="no-js">
 	<head>
-		<title><?php $this->archiveTitle(array('category'=>_t(' %s '),'search'=>_t(' %s '),'tag'=>_t(' %s '),'author'=>_t(' %s ')),'',' - ');?> eallion</title>
+		<title><?php $this->archiveTitle(array('category'=>_t(' %s '),'search'=>_t(' %s '),'tag'=>_t(' %s '),'author'=>_t(' %s ')),'',' - ');?> 大大的小蜗牛</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Cache-Control" content="no-transform" />  
