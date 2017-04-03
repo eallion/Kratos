@@ -64,7 +64,7 @@
 <div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
 	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(<?php ($this->options->bannerimg) ? $this->options->bannerimg() : $this->options->themeUrl('images/background.jpg'); ?>);">
-		<div class="desc desc2 animate-box"><h2><?php $this->options->logoTxt(); ?></h2><span><?php hellobingbing("geyan"); ?></span></div>
+		<div class="desc desc2 animate-box"><h2><?php $this->options->logoTxt(); ?></h2><span><?php hellobingbing("geyan"); ?><!--随机格言--></span></div>
 	</div>
 </div>
 <div id="kratos-blog-post" style="background:#f5f5f5"><!--header-->
