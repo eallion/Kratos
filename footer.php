@@ -27,15 +27,15 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 		</footer>
 	</div>
 </div>
-<script type='text/javascript' src='//cdn.bootcss.com/jquery/2.1.4/jquery.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/jquery-easing/1.3/jquery.easing.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/modernizr/2.6.2/modernizr.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/waypoints/4.0.0/jquery.waypoints.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/stellar.js/0.6.2/jquery.stellar.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js'></script>
-<script type='text/javascript' src='//cdn.bootcss.com/superfish/1.7.4/superfish.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/jquery/2.1.4/jquery.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/jquery.qrcode/1.0/jquery.qrcode.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/modernizr/2.6.2/modernizr.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/waypoints/4.0.0/jquery.waypoints.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/stellar.js/0.6.2/jquery.stellar.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js'></script>
+<script type='text/javascript' src='//lib.baomitu.com/superfish/1.7.4/superfish.min.js'></script>
 <script type='text/javascript' src='<?php $this->options->themeUrl('js/kratos.js?ver=2.5.2'); ?>'></script>
 <script type='text/javascript' src='<?php $this->options->themeUrl('js/kratos.diy.js?ver=2.5.2'); ?>'></script>
 <?php if (!$this->options->sidebarlr == 'single'): ?><script type="text/javascript">
