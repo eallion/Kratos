@@ -8,14 +8,7 @@
 <?php $this->need('header.php'); ?>
 	<div class="container">
 		<div class="row">
-			<?php if ($this->options->sidebarlr == 'left_side'): ?>
-			<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
-                <div id="sidebar">
-                    <?php $this->need('sidebar.php'); ?>
-                </div>
-            </aside>
-			<?php endif; ?>
-            <section id="main" class='<?php echo ($this->options->sidebarlr ==  'single') ? 'col-md-12' : 'col-md-8'; ?>'>
+            <section id="main" class="col-md-8">
 				<article>
 					<div class="kratos-hentry kratos-post-inner clearfix">
 						<header class="kratos-entry-header">
@@ -43,11 +36,7 @@ endwhile;
 $output .= '</ul></div>';
 echo $output;
 ?>
-                        <?php //if ($ad['footer']==1): ?>
-	                    <img src="<?php //echo kratos_option('ad_img');?>">
-	                    <?php //endif ?>
 						</div>
-
 					</div>
 					
 				</article>
