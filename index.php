@@ -16,16 +16,14 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			<?php while($this->next()): ?>
 			<article class="kratos-hentry clearfix">
 				<div class="kratos-entry-border-new clearfix">
-					<div class="kratos-entry-thumb-new">
-						<a href="<?php $this->permalink(); ?>"><img src="<?php echo showThumb($this,null,true); ?>"></a>
-					</div>
+
 					<div class="kratos-post-inner-new">
 						<header class="kratos-entry-header-new">
 							<a class="label"><?php $this->category(',',false); ?><i class="label-arrow"></i></a>
 							<h2 class="kratos-entry-title-new"><a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a></h2>
 						</header>
 						<div class="kratos-entry-content-new">
-							<p><?php $this->excerpt(90, '...'); ?></p>
+							<p><?php $this->excerpt(140, '...'); ?></p>
 						</div>
 					</div>
 					<div class="kratos-post-meta-new">
