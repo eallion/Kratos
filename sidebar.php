@@ -3,7 +3,7 @@
 <?php //作者简介 ?>
 	<aside id="kratos_about-5" class="widget amadeus_about clearfix">
 		<div class="photo-background">
-			<div class="photo-background" style="background:url(https://getcdn.org/eallion/themes/Kratos/images/about.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+			<div class="photo-background" style="background:#c2ccd0;">
 			</div>
 		</div>
 		<div class="photo-wrapper clearfix">
