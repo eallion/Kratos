@@ -9,6 +9,11 @@
 			</aside>
 <?php endif; ?>
 
+<?php //搜索框 ?>
+<?php if (!empty($this->options->sidebarBlock) && in_array('ShowSearch', $this->options->sidebarBlock)): ?>
+	<aside id="kratos_search" class="widget widget_kratos_search clearfix"><h4 class="widget-title">搜索</h4><form role="search" method="get" action="<?php $this->options ->siteUrl(); ?>"><div class="form-group"> <input type="text" name="s" id="s" placeholder="Search…" class="form-control" x-webkit-speech=""></div></form></aside>
+<?php endif; ?>
+
 <?php //热门随机文章 ?>
 <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecent', $this->options->sidebarBlock)): ?>
     <aside class="widget widget_kratos_poststab">
@@ -33,11 +38,6 @@
 	</ul></div>
 	</div>
 	</aside>
-<?php endif; ?>
-
-<?php //搜索框 ?>
-<?php if (!empty($this->options->sidebarBlock) && in_array('ShowSearch', $this->options->sidebarBlock)): ?>
-	<aside id="kratos_search" class="widget widget_kratos_search clearfix"><h4 class="widget-title">搜索</h4><form role="search" method="get" action="<?php $this->options ->siteUrl(); ?>"><div class="form-group"> <input type="text" name="s" id="s" placeholder="Search…" class="form-control" x-webkit-speech=""></div></form></aside>
 <?php endif; ?>
 
 <?php //分类目录 ?>
