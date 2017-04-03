@@ -41,13 +41,11 @@ echo $output;
 					
 				</article>
 			</section>
-			<?php if ($this->options->sidebarlr == 'right_side'): ?>
 				<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
 	                <div id="sidebar">
 	                    <?php $this->need('sidebar.php'); ?>
 	                </div>
 	            </aside>
-			<?php endif; ?>
 		</div>
 	</div>
 </div>
