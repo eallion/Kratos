@@ -17,6 +17,9 @@
 		<link rel='stylesheet' id='kratos-style-css'  href='//getcdn.org/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' media='all' />
 		<link rel='stylesheet' id='kratos-diy-style-css'  href='//getcdn.org/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' media='all' />
 		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
+		<script type="text/javascript">
+		    var _speedMark = new Date();
+		</script>
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
@@ -36,7 +39,6 @@
 												<li><a href="https://eallion.com/category/article">嘀咕</a></li>
 												<li><a href="https://eallion.com/category/sz">山贼</a></li>
 												<li><a href="https://eallion.com/category/share">分享</a></li>
-												<li><a href="https://eallion.com/category/photo">图片</a></li>
 												<li><a href="https://eallion.com/category/code">代码</a></li>
 											</ul>
 										</li>
@@ -54,7 +56,7 @@
 				</div>
 	<div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
-	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//getcdn.org/eallion/themes/Kratos/images/background.jpg);">
+	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//getcdn.org/eallion/themes/Kratos/images/background.webp);">
 		<div class="desc desc2 animate-box"><span><?php hellobingbing("geyan"); ?></span></div>
 	</div>
 	</div>
