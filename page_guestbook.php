@@ -8,7 +8,7 @@
 <?php $this->need('header.php'); ?>
 	<div class="container">
 		<div class="row">
-            <section id="main" class='col-md-12'>
+            <section id="main" class="col-md-12">
 				<article>
 					<div class="kratos-hentry kratos-post-inner clearfix">
 						<header class="kratos-entry-header">
