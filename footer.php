@@ -34,5 +34,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src='//lib.baomitu.com/superfish/1.7.4/superfish.min.js'></script>
 <script type='text/javascript' src='//getcdn.org/eallion/themes/Kratos/js/kratos.js?ver=2.5.2'></script>
 <script type='text/javascript' src='//getcdn.org/eallion/themes/Kratos/js/kratos.diy.js?ver=2.5.2'></script>
+<script type='text/javascript' src="//getcdn.org/eallion/TweenLite/TweenLite.min.js"></script>
+<script type='text/javascript' src="//getcdn.org/eallion/TweenLite/EasePack.min.js"></script>
+<script type='text/javascript' src="//getcdn.org/eallion/TweenLite/rAF.js"></script>
+<script type='text/javascript' src="//getcdn.org/eallion/TweenLite/run.js"></script>
 </body>
 </html>
