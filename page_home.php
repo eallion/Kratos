@@ -16,10 +16,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="<?php $this->keywords() ?>" />
 		<link rel="shortcut icon" href="<?php $this->options->themeUrl('favicon.ico'); ?>">
-		<link rel='stylesheet' id='animate-style-css'  href='//cdn.bootcss.com/animate.css/3.5.1/animate.min.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='awesome-style-css'  href='//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='bootstrap-style-css'  href='//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='superfish-style-css'  href='//cdn.bootcss.com/superfish/1.7.4/superfish.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='animate-style-css'  href='//lib.baomitu.com/animate.css/3.5.1/animate.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='awesome-style-css'  href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='bootstrap-style-css'  href='//lib.baomitu.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='superfish-style-css'  href='//lib.baomitu.com/superfish/1.7.4/superfish.min.css' type='text/css' media='all' />
 		<link rel='stylesheet' id='kratos-style-css'  href='<?php $this->options->themeUrl('style.css?ver=2.5.2'); ?>' type='text/css' media='all' />
 		<link rel='stylesheet' id='kratos-diy-style-css'  href='<?php $this->options->themeUrl('css/kratos.diy.css?ver=2.5.2'); ?>' type='text/css' media='all' />
 		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
