@@ -21,26 +21,11 @@
 					<div class="kratos-hentry kratos-post-inner clearfix">
 						<header class="kratos-entry-header">
 							<h1 class="kratos-entry-title text-center"><?php $this->title(); ?></h1>
-							<div class="kratos-post-meta text-center">
-								<span>
-								<i class="fa fa-calendar"></i> <?php $this->date('Y-m-d'); ?>
-				                <i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> Comments
-				                <i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views
-								</span>
-							</div>
 						</header>
 						<div class="kratos-post-content">
                         <?php parseContent($this); ?>
 						<?php if ($this->options->ad_postend): ?><img src="<?php $this->options->ad_postend(); ?>"><?php endif; ?>
 						</div>
-						<footer class="kratos-entry-footer clearfix">
-							<div class="footer-tag clearfix">
-								<div class="pull-left">
-								<i class="fa fa-tags"></i>
-								<?php $this->tags(' ', true, '<a>没有标签</a>'); ?>
-								</div>
-							</div>
-						</footer>
 					</div>
 					<div class="kratos-hentry kratos-copyright text-center clearfix">
 						<img alt="知识共享许可协议" src="<?php $this->options->themeUrl('images/licenses.png'); ?>">
