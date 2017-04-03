@@ -24,7 +24,6 @@
 						</header>
 						<div class="kratos-post-content">
                         <?php parseContent($this); ?>
-                        <?php if ($this->options->ad_postend): ?><img src="<?php $this->options->ad_postend(); ?>"><?php endif; ?>
 						</div>
 						<footer class="kratos-entry-footer clearfix">
 							<div class="footer-tag clearfix">
