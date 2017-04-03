@@ -38,7 +38,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/EasePack.min.js"></script>
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//getcdn.org/eallion/TweenLite/run.js"></script>
-<script type="text/javascript" src="https://getcdn.org/eallion/js/title.js" charset="UTF-8"></script>
-<script type="text/javascript" src="https://tajs.qq.com/stats?sId=58584686" charset="UTF-8"></script>
+<script type="text/javascript" src="//getcdn.org/eallion/js/title.js" charset="UTF-8"></script>
+<script type="text/javascript" src="//tajs.qq.com/stats?sId=58584686" charset="UTF-8"></script>
 </body>
 </html>
