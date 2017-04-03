@@ -16,9 +16,6 @@
 						</header>
 						<div class="kratos-post-content">
                         <?php parseContent($this); ?>
-                        <?php //if ($ad['footer']==1): ?>
-	                    <img src="<?php //echo kratos_option('ad_img');?>">
-	                    <?php //endif ?>
 						</div>
 					</div>
 					<?php $this->need('comments-guestbook.php'); ?>
