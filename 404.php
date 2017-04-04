@@ -1,6 +1,6 @@
 <?php if(!defined( '__TYPECHO_ROOT_DIR__'))exit;?>
 <!DOCTYPE HTML>
-<html class="no-js"><!-- git sync test -->
+<html class="no-js">
 	<head>
 		<title><?php $this->archiveTitle(array('category'=>_t(' %s '),'search'=>_t(' %s '),'tag'=>_t(' %s '),'author'=>_t(' %s ')),'',' - ');?> eallion</title>
 		<meta charset="UTF-8">
