@@ -100,41 +100,14 @@ $comments->alt(' odd', ' even');
 <?php if($this->allow('comment')): ?>
 	<h4 id="reply-title" class="comment-reply-title">发表评论 <small><?php $comments->cancelReply('取消回复'); ?></small></h4>
 	<form action="<?php $this->commentUrl() ?>" method="post" id="commentform" class="comment-form">
-		<?php if($this->user->hasLogin()): ?>
-		<p class="comment-notes"><span id="email-notes"><?php $this->user->screenName(); ?></span> 欢迎回来。</p>
+		<?php if($this->user->hasLogin()): ?><p class="comment-notes"><span id="email-notes"><?php $this->user->screenName(); ?></span> 欢迎回来。</p>
 		<?php else: ?>
-		<p class="comment-notes"><span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用<span class="required">*</span>标注</p>
-		<?php endif; ?>
-		<div class="comment form-group has-feedback">
-			<div class="input-group">
-				<textarea class="form-control" id="comment" placeholder=" " name="text" rows="5" aria-required="true" required="" onkeydown="if(event.ctrlKey){if(event.keyCode==13){document.getElementById('submit').click();return false}};">
-				</textarea>
-			</div>
-		</div>
-		<?php if(!$this->user->hasLogin()): ?>
-		<div class="comment-form-author form-group has-feedback">
-			<div class="input-group">
-				<div class="input-group-addon"><i class="fa fa-user"></i></div>
-				<input type="text" name="author" maxlength="12" id="author" class="form-control" placeholder="昵称" size="30" value="<?php $this->remember('author'); ?>" required><span class="form-control-feedback required">*</span>
-			</div>
-		</div>
-		<div class="comment-form-email form-group has-feedback">
-			<div class="input-group">
-				<div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
-				<input type="email" name="mail" id="mail" class="form-control" placeholder="邮箱" size="30" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?>><span class="form-control-feedback required">*</span>
-			</div>
-		</div>
-		<div class="comment-form-url form-group has-feedback">
-			<div class="input-group">
-				<div class="input-group-addon"><i class="fa fa-link"></i></div>
-				<input type="url" name="url" id="url" class="form-control" placeholder="网站" size="30" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?>>
-			</div>
-		</div>
-		<?php endif; ?>
-		<p class="form-submit">
-			<input name="submit" type="submit" id="submit" class="btn btn-primary" value="发表评论"><?php $security = $this->widget('Widget_Security'); ?>
-			<input type="hidden" name="_" value="<?php echo $security->getToken($this->request->getReferer())?>">
-		</p>
+		<p class="comment-notes"><span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用<span class="required">*</span>标注</p><?php endif; ?>
+		<div class="comment form-group has-feedback"><div class="input-group"><textarea class="form-control" id="comment" placeholder=" " name="text" rows="5" aria-required="true" required="" onkeydown="if(event.ctrlKey){if(event.keyCode==13){document.getElementById('submit').click();return false}};"></textarea></div></div><?php if(!$this->user->hasLogin()): ?>
+		<div class="comment-form-author form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-user"></i></div><input type="text" name="author" id="author" class="form-control" placeholder="昵称" size="30" value="<?php $this->remember('author'); ?>" required><span class="form-control-feedback required">*</span></div></div>
+		<div class="comment-form-email form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-envelope-o"></i></div><input type="email" name="mail" id="mail" class="form-control" placeholder="邮箱" size="30" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?>><span class="form-control-feedback required">*</span></div></div>
+		<div class="comment-form-url form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-link"></i></div><input type="url" name="url" id="url" class="form-control" placeholder="网站" size="30" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?><?php endif; ?>></div></div><?php endif; ?>
+		<p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="发表评论"><?php $security = $this->widget('Widget_Security'); ?><input type="hidden" name="_" value="<?php echo $security->getToken($this->request->getReferer())?>"></p>
 	</form>
 <?php else: ?>	
 <p class="no-comments">文章评论已关闭！</p>
