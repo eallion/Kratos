@@ -38,7 +38,7 @@ $comments->alt(' odd', ' even');
     ?>
 	<div id="<?php $comments->theId(); ?>" class="comment-body">
 		<div class="comment-author vcard">
-			<img alt="" src="<?php echo $avatar ?>" srcset="<?php echo $avatar ?> 2x" class="avatar avatar-50 photo" height="50" width="50"><cite class="fn"><a href="<?php echo $comments->url; ?>" target="_blank"><?php echo $comments->author; ?></a></cite><span class="says">说道：</span>
+			<img alt="" src="<?php echo $avatar ?>" srcset="<?php echo $avatar ?> 2x" class="avatar avatar-50 photo" height="50" width="50"><cite class="fn"><a href="<?php echo $comments->url; ?>" target="_blank"><?php echo $comments->author; ?></a><?php UserAgent_Plugin::render($comments->agent);?></cite><span class="says">说道：</span>
 		</div>		
 		<div class="comment-meta commentmetadata"><a><?php $comments->date('Y-m-d'); ?></a></div>
 		<p><?php $comments->content(); ?></p>
@@ -100,15 +100,41 @@ $comments->alt(' odd', ' even');
 <?php if($this->allow('comment')): ?>
 	<h4 id="reply-title" class="comment-reply-title">发表评论 <small><?php $comments->cancelReply('取消回复'); ?></small></h4>
 	<form action="<?php $this->commentUrl() ?>" method="post" id="commentform" class="comment-form">
-		<?php if($this->user->hasLogin()): ?><p class="comment-notes"><span id="email-notes"><?php $this->user->screenName(); ?></span> 欢迎回来。</p>
+		<?php if($this->user->hasLogin()): ?>
+		<p class="comment-notes"><span id="email-notes"><?php $this->user->screenName(); ?></span> 欢迎回来。</p>
 		<?php else: ?>
-		<p class="comment-notes"><span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用<span class="required">*</span>标注</p><?php endif; ?>
-		<div class="comment form-group has-feedback"><div class="input-group"><textarea class="form-control" id="comment" placeholder=" " name="text" rows="5" aria-required="true" required="" onkeydown="if(event.ctrlKey){if(event.keyCode==13){document.getElementById('submit').click();return false}};"></textarea></div></div><?php if(!$this->user->hasLogin()): ?>
-		<div class="comment-form-author form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-user"></i></div><input class="form-control" placeholder="昵称" id="author" name="author" type="text" value="" size="30" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;"><span class="form-control-feedback required">*</span></div></div>
-		<div class="comment-form-email form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-envelope-o"></i></div><input class="form-control" placeholder="邮箱" id="mail" name="mail" type="text" value="" size="30"><span class="form-control-feedback required">*</span></div></div>
-		<div class="comment-form-url form-group has-feedback"><div class="input-group"><div class="input-group-addon"><i class="fa fa-link"></i></div><input class="form-control" placeholder="网站" id="url" name="url" type="text" value="" size="30"></div></div><?php endif; ?>
-		<p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-primary" value="发表评论"><?php $security = $this->widget('Widget_Security'); ?>
-		<input type="hidden" name="_" value="<?php echo $security->getToken($this->request->getReferer())?>"></p>
+		<p class="comment-notes"><span id="email-notes">电子邮件地址不会被公开。</span> 必填项已用<span class="required">*</span>标注</p>
+		<?php endif; ?>
+		<div class="comment form-group has-feedback">
+			<div class="input-group">
+				<textarea class="form-control" id="comment" placeholder=" " name="text" rows="5" aria-required="true" required="" onkeydown="if(event.ctrlKey){if(event.keyCode==13){document.getElementById('submit').click();return false}};">
+				</textarea>
+			</div>
+		</div>
+		<?php if(!$this->user->hasLogin()): ?>
+		<div class="comment-form-author form-group has-feedback">
+			<div class="input-group">
+				<div class="input-group-addon"><i class="fa fa-user"></i></div>
+				<input type="text" name="author" maxlength="12" id="author" class="form-control" placeholder="昵称" size="30" value="<?php $this->remember('author'); ?>" required><span class="form-control-feedback required">*</span>
+			</div>
+		</div>
+		<div class="comment-form-email form-group has-feedback">
+			<div class="input-group">
+				<div class="input-group-addon"><i class="fa fa-envelope-o"></i></div>
+				<input type="email" name="mail" id="mail" class="form-control" placeholder="邮箱" size="30" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?>><span class="form-control-feedback required">*</span>
+			</div>
+		</div>
+		<div class="comment-form-url form-group has-feedback">
+			<div class="input-group">
+				<div class="input-group-addon"><i class="fa fa-link"></i></div>
+				<input type="url" name="url" id="url" class="form-control" placeholder="网站" size="30" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?>>
+			</div>
+		</div>
+		<?php endif; ?>
+		<p class="form-submit">
+			<input name="submit" type="submit" id="submit" class="btn btn-primary" value="发表评论"><?php $security = $this->widget('Widget_Security'); ?>
+			<input type="hidden" name="_" value="<?php echo $security->getToken($this->request->getReferer())?>">
+		</p>
 	</form>
 <?php else: ?>	
 <p class="no-comments">文章评论已关闭！</p>

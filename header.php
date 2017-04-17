@@ -14,7 +14,7 @@
 		<link rel="dns-prefetch" href="//tajs.qq.com" />
 		<link rel="shortcut icon" href="//eallion.com/favicon.ico">
 		<link rel='stylesheet' href='//lib.baomitu.com/animate.css/3.5.1/animate.min.css' type='text/css' id='animate-style-css' media='all' />
-		<link rel='stylesheet' href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' id='awesome-style-css' media='all' />
+		<link rel='stylesheet' href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css?v=4.7.0' type='text/css' id='awesome-style-css' media='all' />
 		<link rel='stylesheet' href='//lib.baomitu.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' id='bootstrap-style-css' media='all' />
 		<link rel='stylesheet' href='//lib.baomitu.com/superfish/1.7.4/superfish.min.css' type='text/css' id='superfish-style-css' media='all' />
 		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
