@@ -29,25 +29,30 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 					<div class="kratos-post-meta-new">
 					<span class="visible-lg visible-md visible-sm pull-left">
 					<a href="#"><i class="fa fa-calendar"></i> <?php $this->date('Y/m/d'); ?></a>
-					<a href="<?php $this->permalink(); ?>#respond"><i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> Comments</a>
+					<a href="<?php $this->permalink(); ?>#comments"><i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> 条评论</a>
 					</span>
 					<span class="pull-left">
-					<a href="<?php $this->permalink(); ?>"><i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views</a>
+					<!--<a href="<?php $this->permalink(); ?>"><i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views</a>-->
+					<i class="fa fa-tags"></i>：<?php $this->category(); ?><?php $this->tags('', true, '无'); ?>
 					</span>
 					<span class="pull-right">
-					<a class="read-more" href="<?php $this->permalink(); ?>" title="Read More">Read More <i class="fa fa-chevron-circle-right"></i></a>
+					<a class="read-more" href="<?php $this->permalink(); ?>" title="阅读全文">阅读全文 <i class="fa fa-chevron-circle-right"></i></a>
 					</span>
 					</div>
 				</div>
 			</article>
 		<?php endwhile; ?>
+
 		<?php else: ?>
 		<div class="kratos-hentry clearfix">
 			<h1 class="kratos-post-header-title">Sorry. No Post Yet!</h1>
 		</div>
 		<?php endif; ?>
-
-
+				<article>
+					<div class="kratos-hentry kratos-copyright text-center clearfix">
+						<p><a href="https://s.click.taobao.com/JTj6zow" target="_blank"><img src="https://getcdn.org/eallion/themes/Kratos/images/aliyun/aliyunoff728_90.jpg" /></a></p>
+					</div>
+				</article>
         		<?php $this->pageNav('<', '>', 3, '...', array('wrapTag' => 'ul', 'wrapClass' => 'pagination', 'itemTag' => 'li', 'textTag' => '', 'currentClass' => 'active', 'prevClass' => 'prev', 'nextClass' => 'next')); ?>
 			</section>
 			<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">

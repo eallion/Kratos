@@ -38,6 +38,10 @@
 						<img alt="知识共享许可协议" src="//getcdn.org/eallion/themes/Kratos/images/licenses.png">
 						<h5>本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
 					</div>
+					<div class="kratos-hentry kratos-copyright text-center clearfix">
+						<p><a href="https://s.click.taobao.com/JTj6zow" target="_blank"><img src="https://getcdn.org/eallion/themes/Kratos/images/aliyun/aliyunoff728_90.jpg" /></a>
+						</p>
+					</div>
 					<nav class="navigation post-navigation clearfix" role="navigation">
 						<div class="nav-previous clearfix">
 							<?php $this->thePrev(' %s ','已经是第一篇了',array('title' => '上一篇')); ?>

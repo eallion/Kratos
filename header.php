@@ -9,17 +9,29 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp" />  
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="eallion,snail,woniu,蜗牛,大大的小蜗牛,<?php $this->keywords() ?>" />
-		<link rel="dns-prefetch" href="//getcdn.com" />
-		<link rel="dns-prefetch" href="//lib.baomitu.com" />
+		<meta name="generator" content="Typecho 1.0/14.10.10" />
+		<meta name="template" content="Kratos" />
+		<link rel="dns-prefetch" href="//getcdn.org" />
 		<link rel="dns-prefetch" href="//tajs.qq.com" />
-		<link rel="shortcut icon" href="//eallion.com/favicon.ico">
-		<link rel='stylesheet' href='//lib.baomitu.com/animate.css/3.5.1/animate.min.css' type='text/css' id='animate-style-css' media='all' />
-		<link rel='stylesheet' href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css?v=4.7.0' type='text/css' id='awesome-style-css' media='all' />
-		<link rel='stylesheet' href='//lib.baomitu.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' id='bootstrap-style-css' media='all' />
-		<link rel='stylesheet' href='//lib.baomitu.com/superfish/1.7.4/superfish.min.css' type='text/css' id='superfish-style-css' media='all' />
+		<link rel="dns-prefetch" href="//changyan.sohu.com" />
+		<link rel="dns-prefetch" href="//changyan.itc.cn" />
+		<link rel="dns-prefetch" href="//alimama.alicdn.com" />
+		<link rel="dns-prefetch" href="//www.google-analytics.com" />
+		<link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
+		<link rel="pingback" href="https://eallion.com/action/xmlrpc" />
+		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eallion.com/action/xmlrpc?rsd" />
+		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://eallion.com/action/xmlrpc?wlw" />
+		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://eallion.com/feed/" />
+		<link rel="alternate" type="application/rdf+xml" title="RSS 1.0" href="https://eallion.com/feed/rss/" />
+		<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="https://eallion.com/feed/atom/" />
+		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/css/animate.min.css?ver=3.5.1' type='text/css' id='animate-style-css' media='all' />
+		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/css/font-awesome.min.css?ver=4.7.0' type='text/css' id='awesome-style-css' media='all' />
+		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/css/bootstrap.min.css?ver=3.3.7' type='text/css' id='bootstrap-style-css' media='all' />
+		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/css/superfish.min.css?ver=1.7.4' type='text/css' id='superfish-style-css' media='all' />
 		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
 		<link rel='stylesheet' href='//getcdn.org/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' id='kratos-diy-style-css' media='all' />
 		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
+		<link rel="shortcut icon" href="//getcdn.org/eallion/favicon.ico">
 		<script type="text/javascript">
 		    var _speedMark = new Date();
 		</script>
@@ -59,8 +71,8 @@
 				</div>
 	<div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
-	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//getcdn.org/eallion/themes/Kratos/images/background.webp);">
-		<div class="desc desc2 animate-box"><span><?php hellobingbing("geyan"); ?></span></div>
+	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//getcdn.org/eallion/themes/Kratos/images/background.jpg);">
+		<div class="desc desc2 animate-box"><span><?php eallion("geyan"); ?></span></div>
 	</div>
 	</div>
 	<div class="canvas">
