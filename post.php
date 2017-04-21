@@ -39,8 +39,18 @@
 						<h5>本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
 					</div>
 					<div class="kratos-hentry kratos-copyright text-center clearfix">
-						<p><a href="https://s.click.taobao.com/JTj6zow" target="_blank"><img src="https://getcdn.org/eallion/themes/Kratos/images/aliyun/aliyunoff728_90.jpg" /></a>
-						</p>
+						<div>
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- eallionauto -->
+							<ins class="adsbygoogle"
+								style="display:block"
+								data-ad-client="ca-pub-8240166951189409"
+								data-ad-slot="1193594314"
+								data-ad-format="auto"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
 					</div>
 					<nav class="navigation post-navigation clearfix" role="navigation">
 						<div class="nav-previous clearfix">

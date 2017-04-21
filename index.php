@@ -50,7 +50,18 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 		<?php endif; ?>
 				<article>
 					<div class="kratos-hentry kratos-copyright text-center clearfix">
-						<p><a href="https://s.click.taobao.com/JTj6zow" target="_blank"><img src="https://getcdn.org/eallion/themes/Kratos/images/aliyun/aliyunoff728_90.jpg" /></a></p>
+						<div>
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- eallionauto -->
+							<ins class="adsbygoogle"
+								style="display:block"
+								data-ad-client="ca-pub-8240166951189409"
+								data-ad-slot="1193594314"
+								data-ad-format="auto"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
 					</div>
 				</article>
         		<?php $this->pageNav('<', '>', 3, '...', array('wrapTag' => 'ul', 'wrapClass' => 'pagination', 'itemTag' => 'li', 'textTag' => '', 'currentClass' => 'active', 'prevClass' => 'prev', 'nextClass' => 'next')); ?>
