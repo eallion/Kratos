@@ -20,7 +20,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 								<a target="_blank" rel="external nofollow" href="//weibo.com/eallion"><i class="fa fa-weibo"></i></a>
 							</p>
 							<p><a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">CC BY 4.0</a> · <a href="https://www.ubuntu.com/licensing" target="_blank">Ubuntu</a> · <a href="http://nginx.org/LICENSE" target="_blank">Nginx</a> · <a href="https://php.net/license/index.php" target="_blank">PHP</a> · <a href="https://www.mysql.com/about/legal/" target="_blank">MySQL</a> · <a href="https://oneinstack.com/support/" target="_blank">OneinStack</a> · <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank">Aliyun</a> · <a href="http://typecho.org/license.txt" target="_blank">Typecho</a></p>
-							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com.</a>  All rights reserved.</p>
+							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  All rights reserved.</p>
 						</div>
 					</div>
 				</div>
