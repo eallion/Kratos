@@ -43,6 +43,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/EasePack.min.js?ver=1.9.4"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/run.js"></script>
+<script type="text/javascript" src="//cdn.eallion.com/eallion/analytics.js"></script>
 <script type="text/javascript" src="//tajs.qq.com/stats?sId=58584686" charset="UTF-8"></script>
 </body>
 </html>
