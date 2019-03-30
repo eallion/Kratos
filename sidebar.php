@@ -63,12 +63,38 @@
 	
 <?php //aliyun ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
-		<a href="https://s.click.taobao.com/t?e=m%3D2%26s%3DRGO91YFto1AcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAty2flza8TVSBdzZorqN0KF9DOQIoc%2FbQrx43Mv6OBiNXwo1yMfaq%2F2vW92Yop4ctTDVuRn8ddiDsEVVC24eqozO54LQ%2FVw1L9X5LHh3Z8M%2BWS6ALZVeqlk9XUfbPSJC%2F06deTzTIbffYpyF7ku%2BxKgGargQjSAC4C6cUF%2FXAmem" target="_blank"><img src="https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg"></a>
+		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
+			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px;">
+				<script type="text/javascript">
+					(function() {
+						var s = "_" + Math.random().toString(36).slice(2);
+						document.write('<div style="" id="' + s + '"></div>');
+						(window.slotbydup = window.slotbydup || []).push({
+							id: "u3724526",
+							container:  s
+						});
+					})();
+				</script>
+			</div>
+		</a>
 	</aside>
 
 <?php //qcloud ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
-		<a href="https://cloud.tencent.com/redirect.php?redirect=1014&cps_key=1f05a4ef7955bfdbc954f3f0a115c2e3" target="_blank"><img src="https://cdn.eallion.com/eallion/themes/Kratos/images/qcloud/qcloud300-250.jpg"></a>
+		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
+			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px;">
+				<script type="text/javascript">
+					(function() {
+						var s = "_" + Math.random().toString(36).slice(2);
+						document.write('<div style="" id="' + s + '"></div>');
+						(window.slotbydup = window.slotbydup || []).push({
+							id: "u3724532",
+							container:  s
+						});
+					})();
+				</script>
+			</div>
+		</a>
 	</aside>
 	
 <?php //热门随机文章 ?>

@@ -19,7 +19,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 								<a target="_blank" rel="external nofollow" href="//github.com/eallion"><i class="fa fa-github-square"></i></a>
 								<a target="_blank" rel="external nofollow" href="//weibo.com/eallion"><i class="fa fa-weibo"></i></a>
 							</p>
-							<p><a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank">CC BY 4.0</a> &bull; <a href="https://www.ubuntu.com/licensing" target="_blank">Ubuntu</a> &bull; <a href="http://nginx.org/LICENSE" target="_blank">Nginx</a> &bull; <a href="https://php.net/license/index.php" target="_blank">PHP</a> &bull; <a href="https://www.mysql.com/about/legal/" target="_blank">MySQL</a> &bull; <a href="https://oneinstack.com/support/" target="_blank">OneinStack</a> &bull; <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank">Aliyun</a> &bull; <a href="http://typecho.org/license.txt" target="_blank">Typecho</a></p>
+							<p><a href="https://www.ubuntu.com/licensing" target="_blank">Ubuntu</a> &bull; <a href="http://nginx.org/LICENSE" target="_blank">Nginx</a> &bull; <a href="https://php.net/license/index.php" target="_blank">PHP</a> &bull; <a href="https://www.mysql.com/about/legal/" target="_blank">MySQL</a> &bull; <a href="https://oneinstack.com/support/" target="_blank">OneinStack</a> &bull; <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank">Aliyun</a> &bull; <a href="http://typecho.org/license.txt" target="_blank">Typecho</a></p>
 							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  All rights reserved.</p>
 						</div>
 					</div>
@@ -44,6 +44,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/run.js"></script>
 <script type="text/javascript" src="//cdn.eallion.com/eallion/analytics.js"></script>
-<script type="text/javascript" src="//tajs.qq.com/stats?sId=58584686" charset="UTF-8"></script>
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script>
 </body>
 </html>
