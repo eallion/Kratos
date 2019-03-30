@@ -31,8 +31,7 @@ Tags: typecho,Kratos
 }
 body {
 	font-family:"webfont" !important;
-	font-size:16px;
-	-webkit-text-stroke-width: 0.2px;	
+	font-size:16px;	
 	line-height: 1.8;
 	background: #f5f5f5;
 	color: #848484;
