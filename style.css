@@ -21,11 +21,19 @@ Tags: typecho,Kratos
 **/
 
 @charset "UTF-8";
-
+@font-face {
+  font-family: "webfont";
+  src: url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.eot'); /* IE9 */
+  src: url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.woff') format('woff'), /* chrome、firefox */
+  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
 body {
-	font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-family:"webfont" !important;
+	font-size:16px;
+	-webkit-text-stroke-width: 0.2px;	
 	line-height: 1.8;
-	font-size: 16px;
 	background: #f5f5f5;
 	color: #848484;
 	font-weight: 300;
@@ -57,12 +65,12 @@ ol,p,ul {
 	margin-bottom: 1em;
 	font-size: 16px;
 	color: #333;
-	font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
+	font-family:"webfont" !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	color: #333;
-	font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-family:"webfont" !important;
 	font-weight: 400;
 	margin: 0 0 30px 0
 }
@@ -78,7 +86,7 @@ cite {
 }
 
 .kratos-post-meta,footer p {
-	font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
+	font-family:"webfont" !important;
 }
 
 figure {
@@ -265,7 +273,7 @@ table,table tbody tr th {
 }
 
 .next,.pagination .next,.prev {
-	font-family: Hiragino Sans GB,Microsoft Yahei,Arial,sans-serif
+	font-family:"webfont" !important;
 }
 
 .pagination>li>a:focus,.pagination>li>a:hover {
