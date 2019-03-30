@@ -4,7 +4,7 @@ display: none!important;
 }
 </style>
 <!--PC和WAP自适应版-->
-<div id="SOHUCS" sid="<?php echo $this->cid;?>" ></div>
+<div id="SOHUCS" sid="891" ></div> 
 <script type="text/javascript"> 
 (function(){ 
 var appid = 'cysUWFXbq'; 
