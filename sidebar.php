@@ -64,7 +64,7 @@
 <?php //aliyun ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
 		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
-			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px;">
+			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px; overflow: hidden;">
 				<script type="text/javascript">
 					(function() {
 						var s = "_" + Math.random().toString(36).slice(2);
@@ -82,7 +82,7 @@
 <?php //qcloud ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
 		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
-			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px;">
+			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/qcloud/qcloud300-250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px; overflow: hidden;">
 				<script type="text/javascript">
 					(function() {
 						var s = "_" + Math.random().toString(36).slice(2);
