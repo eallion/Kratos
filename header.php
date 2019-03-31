@@ -10,6 +10,7 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp" />  
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="<?php $this->keywords() ?>" />
+		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 		<meta name="generator" content="Typecho 1.1/17.10.30" />
 		<meta name="template" content="Kratos" />
 		<link rel="dns-prefetch" href="//cdn.eallion.com" />
@@ -25,12 +26,9 @@
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/superfish.min.css?ver=1.7.4' type='text/css' id='superfish-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' id='kratos-diy-style-css' media='all' />
-		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 		<link rel="shortcut icon" href="//cdn.eallion.com/eallion/favicon.ico">
 		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
-		<script type="text/javascript">
-		    var _speedMark = new Date();
-		</script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">

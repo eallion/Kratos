@@ -44,6 +44,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/run.js"></script>
 <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 <script>
 	var _hmt = _hmt || [];
 		(function() {
