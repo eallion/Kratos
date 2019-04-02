@@ -5,7 +5,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 		<footer>
 			<div id="footer">
 				<div class="cd-tool visible-lg text-center">
-					<!-- <a id="weixin-img" class="cd-weixin"><span class="fa fa-weixin"></span><div id="weixin-pic"><img src="//cdn.eallion.com/weixin.png"></div></a> -->
+					<a id="weixin-img" class="cd-weixin"><span class="fa fa-weixin"></span><div id="weixin-pic"><img src="//cdn.eallion.com/weixin.png"></div></a>
 					<a class="cd-top cd-is-visible cd-fade-out"><span class="fa fa-chevron-up"></span></a>
 				</div>
 				<div class="container">
