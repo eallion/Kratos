@@ -81,12 +81,15 @@ function themeConfig($form) {
  * @access public
  * @param string $content 文章正文
  * @param Widget_Abstract_Contents $obj
+ * 文章链接在新窗口打开
  */
+ /**
 function parseContent($obj) {
     $options = Typecho_Widget::widget('Widget_Options');
     if (!empty($options->src_add) && !empty($options->cdn_add)) {
         $obj->content = str_ireplace($options->src_add, $options->cdn_add, $obj->content);
     }
+    $obj->content = preg_replace("/<a href=\"([^\"]*)\">/i", "<a href=\"\\1\" target=\"_blank\">", $obj->content);
     echo trim($obj->content);
 }
 
