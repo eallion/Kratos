@@ -22,6 +22,9 @@
 								<i class="fa fa-user"></i> 作者：<?php $this->author(); ?>
 								<?php endif; ?>     
 				                <i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views
+								<?php if($this->user->hasLogin()): ?>
+								<i class="fa fa-edit"></i> <a href="https://eallion.com/admin/write-post.php?cid=<?php echo $this->cid;?>" >编辑</a>
+								<?php endif; ?> 
 								</span>
 							</div>
 						</header>
@@ -38,7 +41,7 @@
 						</footer>
 					</div>
 					<div class="kratos-hentry kratos-copyright text-center clearfix">
-						<h5>本作品采用 知识共享 <ins><a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.zh"><i class="fa fa-creative-commons"></i> 署名 4.0 国际</a></ins> 许可协议<?php if($this->category == "code"): ?> · 代码遵循 <ins><a rel="license nofollow" target="_blank" href="https://opensource.org/licenses/mit-license.html">MIT协议</a></ins> </h5>
+						<h5>本作品采用 知识共享 <ins><a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.zh"><i class="fa fa-creative-commons"></i> 署名 4.0 国际</a></ins> 许可协议<?php if($this->category == "code"): ?> &bull; 代码遵循 <ins><a rel="license nofollow" target="_blank" href="https://opensource.org/licenses/mit-license.html">MIT协议</a></ins> </h5>
 						<?php endif; ?>
 					</div>
 					<nav class="navigation post-navigation clearfix" role="navigation">
