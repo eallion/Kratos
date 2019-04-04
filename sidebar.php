@@ -68,33 +68,14 @@
 <?php //aliyun ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
 		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
-			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px; overflow: hidden;">
-				<ins class="adsbygoogle"
-					style="display:block"
-					data-ad-client="ca-pub-8240166951189409"
-					data-ad-slot="4105375474"
-					data-ad-format="auto"
-					data-full-width-responsive="true">
-				</ins>
-			</div>
+			<img src="https://cdn.eallion.com/eallion/themes/Kratos/images/aliyun/aliyun300x250.jpg" />
 		</a>
 	</aside>
 
 <?php //qcloud ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
-		<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank" >
-			<div style="background: url('https://cdn.eallion.com/eallion/themes/Kratos/images/qcloud/qcloud300-250.jpg');background-repeat: no-repeat;height: 250px;background-size: 300px 250px; overflow: hidden;">
-				<script type="text/javascript">
-					(function() {
-						var s = "_" + Math.random().toString(36).slice(2);
-						document.write('<div style="" id="' + s + '"></div>');
-						(window.slotbydup = window.slotbydup || []).push({
-							id: "u3724532",
-							container:  s
-						});
-					})();
-				</script>
-			</div>
+		<a href="https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=1f05a4ef7955bfdbc954f3f0a115c2e3" target="_blank" >
+			<img src="https://cdn.eallion.com/eallion/themes/Kratos/images/qcloud/qcloud300-250.jpg" />
 		</a>
 	</aside>
 	

@@ -10,9 +10,9 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp" />  
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="<?php $this->keywords() ?>" />
-		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 		<meta name="generator" content="Typecho 1.1/17.10.30" />
 		<meta name="template" content="Kratos" />
+		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 		<link rel="dns-prefetch" href="//cdn.eallion.com" />
 		<link rel="pingback" href="https://eallion.com/action/xmlrpc" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eallion.com/action/xmlrpc?rsd" />
@@ -28,7 +28,6 @@
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' id='kratos-diy-style-css' media='all' />
 		<link rel="shortcut icon" href="//cdn.eallion.com/eallion/favicon.ico">
 		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
@@ -45,11 +44,11 @@
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-home"></i> Home</a></li>
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-list"></i> 分类</a>
 											<ul class="sub-menu">
-												<li><a class="list-group-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀咕</a></li>
-												<li><a class="list-group-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山贼</a></li>
-												<li><a class="list-group-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分享</a></li>
-												<li><a class="list-group-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代码</a></li>
-												<li><a class="list-group-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运营</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀咕</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山贼</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分享</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代码</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运营</a></li>
 											</ul>
 										</li>
 										<li class="current-menu-item">
