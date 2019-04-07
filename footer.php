@@ -13,14 +13,13 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 						<div class="col-md-6 col-md-offset-3 footer-list text-center">
 							<p class="kratos-social-icons">
 								<a target="_blank" rel="external nofollow" href="//twitter.com/eallion"><i class="fa fa-twitter-square"></i></a>
-								<a target="_blank" rel="external nofollow" href="//www.facebook.com/eallion"><i class="fa fa-facebook-square"></i></a>
-								<a target="_blank" rel="external nofollow" href="//www.linkedin.com/in/eallion"><i class="fa fa-linkedin-square"></i></a>
-								<a target="_blank" rel="external nofollow" href="//www.instagram.com/eallion"><i class="fa fa-instagram"></i></a>
 								<a target="_blank" rel="external nofollow" href="//github.com/eallion"><i class="fa fa-github-square"></i></a>
+								<a target="_blank" rel="external nofollow" href="//www.linkedin.com/in/eallion"><i class="fa fa-linkedin-square"></i></a>
 								<a target="_blank" rel="external nofollow" href="//weibo.com/eallion"><i class="fa fa-weibo"></i></a>
+								<a target="_blank" rel="external nofollow" href="//eallion.com/feed"><i class="fa fa-rss-square"></i></a>
 							</p>
 							<p><a href="https://www.ubuntu.com/licensing" target="_blank">Ubuntu</a> &bull; <a href="http://nginx.org/LICENSE" target="_blank">Nginx</a> &bull; <a href="https://php.net/license/index.php" target="_blank">PHP</a> &bull; <a href="https://www.mysql.com/about/legal/" target="_blank">MySQL</a> &bull; <a href="https://oneinstack.com/support/" target="_blank">OneinStack</a> &bull; <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank">Aliyun</a> &bull; <a href="http://typecho.org/license.txt" target="_blank">Typecho</a></p>
-							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  <a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16031768-2</a> <a href="https://eallion.com/feed/" target="_blank"><i class="fa fa-rss"></i></a></p>
+							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  <a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16031768-2</a></p>
 						</div>
 					</div>
 				</div>

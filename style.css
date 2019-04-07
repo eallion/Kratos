@@ -21,17 +21,10 @@ Tags: typecho,Kratos
 **/
 
 @charset "UTF-8";
-@font-face {
-  font-family: "webfont";
-  src: url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.eot'); /* IE9 */
-  src: url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.woff') format('woff'), /* chrome、firefox */
-  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('//cdn.eallion.com/eallion/themes/Kratos/fonts/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
-}
 body {
-	font-family:"webfont" !important;
-	font-size:16px;	
+	font-family: 'Noto Sans SC', sans-serif;
+	font-size:16px;
+	-webkit-text-stroke-width: 0.2px;	
 	line-height: 1.8;
 	background: #f5f5f5;
 	color: #848484;
@@ -64,12 +57,12 @@ ol,p,ul {
 	margin-bottom: 1em;
 	font-size: 16px;
 	color: #333;
-	font-family:"webfont" !important;
+	font-family: 'Noto Sans SC', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	color: #333;
-	font-family:"webfont" !important;
+	font-family: 'Noto Sans SC', sans-serif;
 	font-weight: 400;
 	margin: 0 0 30px 0
 }
@@ -85,7 +78,7 @@ cite {
 }
 
 .kratos-post-meta,footer p {
-	font-family:"webfont" !important;
+	font-family: 'Noto Sans SC', sans-serif;
 }
 
 figure {
@@ -272,7 +265,7 @@ table,table tbody tr th {
 }
 
 .next,.pagination .next,.prev {
-	font-family:"webfont" !important;
+	font-family: 'Noto Sans SC', sans-serif;
 }
 
 .pagination>li>a:focus,.pagination>li>a:hover {

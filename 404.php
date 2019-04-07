@@ -16,6 +16,6 @@
 	<link rel="shortcut icon" href="//cdn.eallion.com/eallion/favicon.ico">
 </head>
 <body>
-	<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homePageName="返回首页" homePageUrl="https://eallion.com"></script>
+	<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homePageName="返回本站首页" homePageUrl="https://eallion.com"></script>
 </body>
 </html>

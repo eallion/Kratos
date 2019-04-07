@@ -60,10 +60,10 @@
 		</div>
 	</div>
 	</aside>
-<?php //alipay ?>
+<!-- <?php //alipay ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
 		<img src="https://cdn.eallion.com/alipay.png">
-	</aside>
+	</aside> -->
 	
 <?php //aliyun ?>
 	<aside id="kratos_ad-2" class="widget widget_kratos_ad clearfix">
