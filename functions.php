@@ -639,5 +639,11 @@ function getBuildTime(){
 		echo '';
 		}
 	}
-
+// 文章字数统计
+function  art_count ($cid){
+    $db=Typecho_Db::get ();
+    $rs=$db->fetchRow ($db->select ('table.contents.text')->from ('table.contents')->where ('table.contents.cid=?',$cid)->order ('table.contents.cid',Typecho_Db::SORT_ASC)->limit (1));
+    $text = preg_replace("/[^\x{4e00}-\x{9fa5}]/u", "", $rs['text']);
+    echo mb_strlen($text,'UTF-8');
+}
 ?>

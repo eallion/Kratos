@@ -2504,12 +2504,21 @@ img.size-smiley {
 	height: auto!important
 }
 
+.kratos-copyright {
+	padding:18px 0 15px 40px;
+	line-height:0.99
+}
+
 .kratos-copyright img {
 	margin-top: 20px
 }
 
 .kratos-copyright h5 {
 	margin: 20px 10px 20px 10px
+}
+
+.kratos-copyright p {
+	font-size:14px
 }
 
 .kratos-copyright a {
