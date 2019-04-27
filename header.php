@@ -14,21 +14,22 @@
 		<meta name="template" content="Kratos" />
 		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 		<link rel="dns-prefetch" href="//cdn.eallion.com" />
-		<link rel="dns-prefetch" href="//fonts.eallion.com" />
+		<link rel="dns-prefetch" href="//fonts.googleapis.com" />
 		<link rel="pingback" href="https://eallion.com/action/xmlrpc" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eallion.com/action/xmlrpc?rsd" />
 		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://eallion.com/action/xmlrpc?wlw" />
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://eallion.com/feed/" />
 		<link rel="alternate" type="application/rdf+xml" title="RSS 1.0" href="https://eallion.com/feed/rss/" />
 		<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="https://eallion.com/feed/atom/" />
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+SC"/>
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/animate.min.css?ver=3.5.1' type='text/css' id='animate-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/font-awesome.min.css?ver=4.7.0' type='text/css' id='awesome-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/bootstrap.min.css?ver=3.3.7' type='text/css' id='bootstrap-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/superfish.min.css?ver=1.7.4' type='text/css' id='superfish-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/fonts/fonts.css?family=Noto+Sans+SC' type='text/css' id='NotoSans-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' id='kratos-diy-style-css' media='all' />
-		<link rel="shortcut icon" href="//cdn.eallion.com/eallion/favicon.ico">
+		<link rel="stylesheet" href="//cdn.eallion.com/eallion/plugins/prism/prism.css" type="text/css" />
+		<link rel="shortcut icon" href="//cdn.eallion.com/favicon.ico">
 		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
 	</head>
 	<?php flush(); ?>

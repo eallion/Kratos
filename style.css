@@ -22,7 +22,7 @@ Tags: typecho,Kratos
 
 @charset "UTF-8";
 body {
-	font-family: 'Noto Sans SC', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,'Noto Sans SC', sans-serif;
 	font-size:16px;
 	-webkit-text-stroke-width: 0.2px;	
 	line-height: 1.8;
@@ -110,16 +110,6 @@ blockquote {
 blockquote p:only-child {
 	font-size: 16px;
 	color: #080808
-}
-
-code {
-	padding: 2px 4px;
-	font-size: 90%;
-	color: #333;
-	background-color: #f8f8f8;
-	border-radius: 0;
-	border: 1px solid #E1E1E1;
-	margin: 0
 }
 
 cite {

@@ -19,7 +19,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 								<a target="_blank" rel="external nofollow" href="//eallion.com/feed"><i class="fa fa-rss-square"></i></a>
 							</p>
 							<p><a href="https://www.ubuntu.com/licensing" target="_blank">Ubuntu</a> &bull; <a href="http://nginx.org/LICENSE" target="_blank">Nginx</a> &bull; <a href="https://php.net/license/index.php" target="_blank">PHP</a> &bull; <a href="https://www.mysql.com/about/legal/" target="_blank">MySQL</a> &bull; <a href="https://oneinstack.com/support/" target="_blank">OneinStack</a> &bull; <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuthb7tq&productCode=vm&utm_source=wuthb7tq" target="_blank">Aliyun</a> &bull; <a href="http://typecho.org/license.txt" target="_blank">Typecho</a></p>
-							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  <a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16031768-2</a></p>
+							<p><i class="fa fa-copyright"></i> 2006 - <?php echo date("Y"); ?> <a href="https://eallion.com/copyright">eallion.com</a>  <a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备16031768号-2</a></p>
 						</div>
 					</div>
 				</div>
@@ -42,6 +42,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/EasePack.min.js?ver=1.9.4"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/rAF.js"></script>
 <script type='text/javascript' src="//cdn.eallion.com/eallion/TweenLite/run.js"></script>
+<script type="text/javascript" src="//cdn.eallion.com/eallion/plugins/prism/prism.js"></script>
 <script>
 	var _hmt = _hmt || [];
 		(function() {
@@ -50,15 +51,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			var s = document.getElementsByTagName("script")[0]; 
 				s.parentNode.insertBefore(hm, s);
 		})();
-</script>
-<script>
-var cnzz_s_tag = document.createElement('script');
-cnzz_s_tag.type = 'text/javascript';
-cnzz_s_tag.async = true;
-cnzz_s_tag.charset = "utf-8";
-cnzz_s_tag.src = "https://s4.cnzz.com/z_stat.php?id=2125914&web_id=2125914&async=1";
-var root_s = document.getElementsByTagName('script')[0];
-root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
 </script>
 </body>
 </html>
