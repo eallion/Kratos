@@ -27,10 +27,12 @@
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/bootstrap.min.css?ver=3.3.7' type='text/css' id='bootstrap-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/superfish.min.css?ver=1.7.4' type='text/css' id='superfish-style-css' media='all' />
 		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/kratos.diy.css?ver=2.5.2' type='text/css' id='kratos-diy-style-css' media='all' />
 		<link rel="stylesheet" href="//cdn.eallion.com/eallion/plugins/prism/prism.css" type="text/css" />
 		<link rel="shortcut icon" href="//cdn.eallion.com/favicon.ico">
 		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//cdn.eallion.com/eallion/themes/Kratos/js/html5shiv.js"></script>
+		<![endif]-->
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
@@ -52,6 +54,7 @@
 												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分享</a></li>
 												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代码</a></li>
 												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运营</a></li>
+												<li><a class="cat-item" href="https://eallion.com/404"><i class="fa fa-child fa-fw"></i> 404 </a></li>
 											</ul>
 										</li>
 										<li class="current-menu-item">
@@ -69,7 +72,7 @@
 				</div>
 	<div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
-	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//cdn.eallion.com/eallion/themes/Kratos/images/background.jpg);">
+	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//images.eallion.com/unsplash.png);">
 		<div class="desc desc2 animate-box"><span><?php eallion("geyan"); ?></span></div>
 	</div>
 	</div>
