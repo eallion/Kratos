@@ -49,12 +49,11 @@
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-home"></i> Home</a></li>
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-list"></i> 分类</a>
 											<ul class="sub-menu">
-												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀咕</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山贼</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分享</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代码</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运营</a></li>
-												<li><a class="cat-item" href="https://eallion.com/404"><i class="fa fa-child fa-fw"></i> 404 </a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀 咕</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山 贼</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分 享</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代 码</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运 营</a></li>
 											</ul>
 										</li>
 										<li class="current-menu-item">

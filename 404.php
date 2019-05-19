@@ -32,7 +32,7 @@
 		<link rel="shortcut icon" href="//cdn.eallion.com/favicon.ico">
 		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
 		<style type="text/css">
-			.desc,.mod_fd,.ico_corner,.bottom_right	{display:none;}
+			#randerHere .desc,.mod_fd,.ico_corner,.bottom_right	{display:none;}
 			.randerHere	{}
 			.logo_list	{text-align: center;}
 			.eallion-404	{font-size:31px;text-align: center;}
@@ -57,12 +57,11 @@
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-home"></i> Home</a></li>
 										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-list"></i> 分类</a>
 											<ul class="sub-menu">
-												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀咕</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山贼</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分享</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代码</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运营</a></li>
-												<li><a class="cat-item" href="https://eallion.com/404"><i class="fa fa-child fa-fw"></i> 404</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀 咕</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山 贼</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分 享</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代 码</a></li>
+												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运 营</a></li>
 											</ul>
 										</li>
 										<li class="current-menu-item">
