@@ -21,6 +21,7 @@ Tags: typecho,Kratos
 **/
 
 @charset "UTF-8";
+@font-face{font-family: "FZXiJinLJW";src: url(https://cdn.eallion.com/eallion/themes/Kratos/fonts/FZXiJinLJW.33937684.ttf) format("truetype");}
 body {
 	font-family: -apple-system,BlinkMacSystemFont,'Noto Sans SC', sans-serif;
 	font-size:16px;
@@ -495,7 +496,7 @@ table,table tbody tr th {
 	color: #fff;
 	margin-bottom: 30px;
 	font-size: 25px;
-	letter-spacing: 1px
+	letter-spacing: 5px
 }
 
 @media screen and (max-width:768px) {
@@ -3546,4 +3547,8 @@ img.size-smiley {
 .page-navigator {
 	margin: 0!important;
 	text-align: center
+}
+.jinrishici	{
+	font-family: 'FZXiJinLJW';
+	font-size: calc(25px + 1vw);
 }

@@ -72,7 +72,7 @@
 	<div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
 	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//images.eallion.com/unsplash.png);">
-		<div class="desc desc2 animate-box"><span><?php eallion("geyan"); ?></span></div>
+		<div class="desc desc2 animate-box"><span id="jinrishici-sentence" class="jinrishici" style="font-size:calc(25px + 1vw);text-shadow: none;"></span></div>
 	</div>
 	</div>
 	<div class="canvas">
