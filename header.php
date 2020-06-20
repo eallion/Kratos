@@ -1,38 +1,26 @@
-<?php if(!defined( '__TYPECHO_ROOT_DIR__'))exit;?><?php header('X-Frame-Options:Deny'); ?>
+<?php if(!defined( '__TYPECHO_ROOT_DIR__'))exit;?>
 <!DOCTYPE HTML>
 <html class="no-js">
 	<head>
-		<title><?php $this->archiveTitle(array('category'=>_t(' %s '),'search'=>_t(' %s '),'tag'=>_t(' %s '),'author'=>_t(' %s ')),'',' - ');?> 大大的小蜗牛</title>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="renderer" content="webkit">
-		<meta http-equiv="Cache-Control" content="no-transform" />  
-		<meta http-equiv="Cache-Control" content="no-siteapp" />  
+		<title><?php $this->archiveTitle(array('category'=>_t(' %s '),'search'=>_t(' %s '),'tag'=>_t(' %s '),'author'=>_t(' %s ')),'',' - ');?> <?php $this->options->title();?></title>
+		<meta charset="<?php $this->options->charset(); ?>">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-transform" />  
+        <meta http-equiv="Cache-Control" content="no-siteapp" />  
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="<?php $this->keywords() ?>" />
-		<meta name="generator" content="Typecho 1.1/17.10.30" />
-		<meta name="template" content="Kratos" />
+		<link rel="shortcut icon" href="//eallion.com/favicon.ico">
+		<link rel='stylesheet' id='animate-style-css'  href='//lib.baomitu.com/animate.css/3.5.1/animate.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='awesome-style-css'  href='//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='bootstrap-style-css'  href='//lib.baomitu.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='superfish-style-css'  href='//lib.baomitu.com/superfish/1.7.4/superfish.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='kratos-style-css'  href='<?php $this->options->themeUrl('style.css?ver=2.5.2'); ?>' type='text/css' media='all' />
+		<link rel='stylesheet' id='kratos-diy-style-css'  href='<?php $this->options->themeUrl('css/kratos.diy.css?ver=2.5.2'); ?>' type='text/css' media='all' />
 		<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
-		<link rel="dns-prefetch" href="//cdn.eallion.com" />
-		<link rel="dns-prefetch" href="//fonts.googleapis.com" />
-		<link rel="pingback" href="https://eallion.com/action/xmlrpc" />
-		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eallion.com/action/xmlrpc?rsd" />
-		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://eallion.com/action/xmlrpc?wlw" />
-		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://eallion.com/feed/" />
-		<link rel="alternate" type="application/rdf+xml" title="RSS 1.0" href="https://eallion.com/feed/rss/" />
-		<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="https://eallion.com/feed/atom/" />
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+SC"/>
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/animate.min.css?ver=3.5.1' type='text/css' id='animate-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/font-awesome.min.css?ver=4.7.0' type='text/css' id='awesome-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/bootstrap.min.css?ver=3.3.7' type='text/css' id='bootstrap-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/css/superfish.min.css?ver=1.7.4' type='text/css' id='superfish-style-css' media='all' />
-		<link rel='stylesheet' href='//cdn.eallion.com/eallion/themes/Kratos/style.css?ver=2.5.2' type='text/css' id='kratos-style-css' media='all' />
-		<link rel="stylesheet" href="//cdn.eallion.com/eallion/plugins/prism/prism.css" type="text/css" />
-		<link rel="shortcut icon" href="//cdn.eallion.com/favicon.ico">
-		<script type='text/javascript' src="//cdn.eallion.com/eallion/themes/Kratos/js/browser.js"></script>
-		<!--[if lt IE 9]>
-			<script src="//cdn.eallion.com/eallion/themes/Kratos/js/html5shiv.js"></script>
-		<![endif]-->
+		<?php if($this->options->site_bw == 'able'): ?>
+			<style type="text/css">html{filter: grayscale(100%);-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);filter: gray;-webkit-filter: grayscale(1); }
+			</style>
+		<?php endif; ?>
 	</head>
 	<?php flush(); ?>
 	<body data-spy="scroll" data-target=".scrollspy">
@@ -43,25 +31,29 @@
 						<div class="container">
 							<div class="nav-header">
 								<a href="#" class="js-kratos-nav-toggle kratos-nav-toggle"><i></i></a>
-									<h1 id="kratos-logo"><a href="https://eallion.com/">大大的小蜗牛</a></h1>
+								<?php if ( !empty( $this->options->logoUrl ) ) {?>
+									<a href="<?php $this->options ->siteUrl(); ?>">
+									<h1 id="kratos-logo-img"><img src="<?php $this->options->logoUrl(); ?>"></h1>
+									</a>
+								<?php }else{?>
+									<h1 id="kratos-logo"><a href="<?php $this->options ->siteUrl(); ?>"><?php $this->options->title();?></a></h1>
+								<?php }?>
 								<nav id="kratos-menu-wrap" class="menu-container">
 									<ul id="kratos-primary-menu" class="sf-menu">
-										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-home"></i> Home</a></li>
-										<li class="current-menu-item"><a href="https://eallion.com/"><i class="fa fa-list"></i> 分类</a>
+										<li class="current-menu-item"><a href="<?php $this->options ->siteUrl(); ?>">Home</a></li>
+										<li class="current-menu-item"><a href="<?php $this->options ->siteUrl(); ?>">分类</a>
 											<ul class="sub-menu">
-												<li><a class="cat-item" href="https://eallion.com/category/article"><i class="fa fa-comments-o fa-fw"></i> 嘀 咕</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/sz"><i class="fa fa-columns fa-fw"></i> 山 贼</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/share"><i class="fa fa-share-alt fa-fw"></i> 分 享</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/code"><i class="fa fa-code fa-fw"></i> 代 码</a></li>
-												<li><a class="cat-item" href="https://eallion.com/category/operation"><i class="fa fa-sticky-note-o fa-fw"></i> 运 营</a></li>
+												<?php $this->widget('Widget_Metas_Category_List')->to($cats); ?>
+												<?php while ($cats->next()): ?>
+												<li><a href="<?php $cats->permalink()?>"><?php $cats->name()?></a></li>
+												<?php endwhile; ?>
 											</ul>
 										</li>
 										<li class="current-menu-item">
-											<li><a href="https://eallion.com/archive"><i class="fa fa-folder-open-o"></i> 归档</a></li>
-											<li><a href="https://eallion.com/links"><i class="fa fa-globe"></i> 友链</a></li>
-											<li><a href="https://s.eallion.com/" target="_blank"><i class="fa fa-list-alt"></i> 导航</a></li>
-											<li><a href="http://www.kubaicai.com/" target="_blank"><i class="fa fa-shopping-cart"></i> 优惠券</a></li>
-											<li><a href="https://eallion.com/about"><i class="fa fa-info"></i> 关于</a></li>
+												<?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+												<?php while($pages->next()): ?>
+												<li><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
+												<?php endwhile; ?>
 										</li>
 									</ul>
 								</nav>
@@ -69,15 +61,10 @@
 						</div>
 					</header>
 				</div>
-	<div class="kratos-start kratos-hero-2">
+<div class="kratos-start kratos-hero-2">
 	<div class="kratos-overlay"></div>
-	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(//images.eallion.com/unsplash.png);">
-		<div class="desc desc2 animate-box"><span id="jinrishici-sentence" class="jinrishici" style="font-size:calc(25px + 1vw);text-shadow: none;"></span></div>
+	<div class="kratos-cover kratos-cover_2 text-center" style="background-image: url(<?php ($this->options->bannerimg) ? $this->options->bannerimg() : $this->options->themeUrl('images/background.jpg'); ?>);">
+		<div class="desc desc2 animate-box"><h2><?php $this->options->logoTxt(); ?></h2><span><?php hellobingbing("geyan"); ?><!--随机格言--></span></div>
 	</div>
-	</div>
-	<div class="canvas">
-        <div class="demo">
-             <canvas id="demo-canvas"></canvas>
-        </div>
-    </div>
+</div>
 <div id="kratos-blog-post" style="background:#f5f5f5"><!--header-->

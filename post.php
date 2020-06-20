@@ -9,27 +9,29 @@
 <?php $this->need('header.php'); ?>
 	<div class="container">
 		<div class="row">
-            <section id="main" class='col-md-8'>
+			<?php if ($this->options->sidebarlr == 'left_side'): ?>
+			<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
+                <div id="sidebar">
+                    <?php $this->need('sidebar.php'); ?>
+                </div>
+            </aside>
+			<?php endif; ?>
+            <section id="main" class='<?php echo ($this->options->sidebarlr ==  'single') ? 'col-md-12' : 'col-md-8'; ?>'>
 				<article>
 					<div class="kratos-hentry kratos-post-inner clearfix">
 						<header class="kratos-entry-header">
 							<h1 class="kratos-entry-title text-center"><?php $this->title(); ?></h1>
 							<div class="kratos-post-meta text-center">
 								<span>
-								<i class="fa fa-calendar"></i> <?php $this->date('Y年n月j日'); ?> 
-								<i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> 条评论
-								<?php if($this->category == "sz"): ?>
-								<i class="fa fa-user"></i> <?php echo '作者：'; ?><?php $this->author(); ?>
-								<?php endif; ?>
-				                <i class="fa fa-eye"></i> <?php echo get_post_view($this) . ' Views'; ?>
-								<?php if($this->user->hasLogin()): ?>
-								<i class="fa fa-edit"></i> <a href="https://eallion.com/admin/write-post.php?cid=<?php echo $this->cid;?>" target="_blank" ><?php echo '编辑'; ?></a>
-								<?php endif; ?> 
+								<i class="fa fa-calendar"></i> <?php $this->date('Y-m-d'); ?>
+				                <i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> Comments
+				                <i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views
 								</span>
 							</div>
 						</header>
 						<div class="kratos-post-content">
                         <?php parseContent($this); ?>
+                        <?php if ($this->options->ad_postend): ?><img src="<?php $this->options->ad_postend(); ?>"><?php endif; ?>
 						</div>
 						<footer class="kratos-entry-footer clearfix">
 							<div class="footer-tag clearfix">
@@ -40,12 +42,9 @@
 							</div>
 						</footer>
 					</div>
-					<div class="kratos-hentry kratos-copyright clearfix">
-						<div class="kratos-post-content">
-							<p><strong>声明：</strong><a href="https://eallion.com/copyright"><?php $this->author(); ?></a> 发表于 <?php $this->date('Y-m-d'); ?> <?php $this->date('H:i:s'); ?> ，共计<?php art_count($this->cid); ?>字。</p>
-							<p><strong>本作品采用： </strong>知识共享 <ins><a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.zh"><i class="fa fa-creative-commons"></i> 署名 4.0 国际</a></ins> 许可协议<?php if($this->category == "code"): ?> &bull; 代码遵循 <ins><a rel="license nofollow" target="_blank" href="https://opensource.org/licenses/mit-license.html">MIT协议</a></ins><?php endif; ?></p>
-							<p><strong>转载请署名：</strong><a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a> | <a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a></p>
-						</div>
+					<div class="kratos-hentry kratos-copyright text-center clearfix">
+						<img alt="知识共享许可协议" src="<?php $this->options->themeUrl('images/licenses.png'); ?>">
+						<h5>本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
 					</div>
 					<nav class="navigation post-navigation clearfix" role="navigation">
 						<div class="nav-previous clearfix">
@@ -58,11 +57,13 @@
 					<?php $this->need('comments.php'); ?>
 				</article>
 			</section>
+			<?php if ($this->options->sidebarlr == 'right_side'): ?>
 				<aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy">
 	                <div id="sidebar">
 	                    <?php $this->need('sidebar.php'); ?>
 	                </div>
 	            </aside>
+			<?php endif; ?>
 		</div>
 	</div>
 </div>
