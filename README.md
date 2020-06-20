@@ -1,4 +1,9 @@
-Kratos for Typecho 二次修改版。
+从原版 fork 过来，仅修复了几个 bug
+
+fix bug ：
+
+- 评论出错。 “必须填写电子邮箱地址”。
+
 
 源代码：https://coding.net/u/Arco-X/p/Kratos/git
 
@@ -7,5 +12,3 @@ Kratos for Typecho 二次修改版。
 感谢：http://typecho.org
 
 我的博客：https://eallion.com
-
-现在这套代码基本上已经修改得很个人化了，建议下载原版使用。
